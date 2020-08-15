@@ -1,0 +1,140 @@
+body {
+  margin:0;
+}
+#header {
+  width:100%;
+  background-color: rgba(15, 13, 13, 0.788);
+  height:100px;
+}
+#logo {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+}
+.hword {
+  font-size: 30px;
+  color: white;
+  padding-top: 20px;
+}
+.ref {
+  color: white;
+  font-size: 15px;
+  margin: 0 5px;
+}
+.refcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#banner {
+  background-color: rgb(85, 184, 8);
+  width: 100%;
+  height:200px;
+  position: relative;
+}
+.butt {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0);
+  padding: 4px;
+  width: 20px;
+  height: 30px;
+  background-color: white;
+  opacity: 0.5;
+  margin: 0 2px; 
+  text-decoration: none;
+  text-align: center;
+  transition: opacity 1s;
+  transition: padding-top 1s;
+}
+.butt:hover {
+  opacity: 1;
+  padding-top:20px;
+
+}
+#butcon {
+  position: absolute;
+  right: 300px;
+  bottom: 20px;
+}
+#nav {
+  border-bottom: gray;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-top:20px;
+}
+.navc:before {
+  content:"";
+  display:inline-block;
+  height:100%;
+  vertical-align:middle;
+}
+#navcon {
+  width:960px;
+  margin:0 auto;
+
+}
+.navc {
+  position: relative;
+  bottom:-1px;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom-color: transparent;
+  background-color: rgb(179, 174, 174);
+  text-decoration:none;
+  color:black;
+}
+.navc:hover,
+.navc:active {
+  background-color:white;
+}
+main {
+  margin: 0 auto;
+
+  margin-top: 10px;
+  width: 960px;
+}
+
+ul {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  justify-content: space-between;
+}
+main li {
+  text-align: center;
+  display: block;
+  border: 1px solid black;
+  padding: 80px;
+
+}
+
+.top,
+.mid,
+.bottom {
+  display: flex;
+}
+
+.top li,
+.mid li,
+.bottom li {
+  flex: 1;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+#footer {
+  margin-top: 10px;
+  height:100px;
+  background-color: rgb(54, 54, 54);
+  color:white;
+  text-align: center;
+}
+#footerword {
+  display: inline-block;
+  margin-top:10px;
+}
